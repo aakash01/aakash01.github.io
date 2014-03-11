@@ -8,7 +8,7 @@ published: true
 ---
 
 {% include JB/setup %}
-> __Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.__
+> __Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of the largest rectangle in the histogram.__
 
 ![histogram]({{http://aakash01.github.io}}/assets/images/histogram.png)
 
