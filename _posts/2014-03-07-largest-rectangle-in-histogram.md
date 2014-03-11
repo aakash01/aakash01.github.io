@@ -8,7 +8,7 @@ published: true
 ---
 
 {% include JB/setup %}
-Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+> __Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.__
 
 ![histogram]({{http://aakash01.github.io}}/assets/images/histogram.png)
 
@@ -28,10 +28,10 @@ return `10`.
 
 The point of this algorithm is to maintain a stack where higher element is always greater or equal to the lower element.
 
-> **Why do we need to maintain that kind of stack?**
+> _Why do we need to maintain that kind of stack?_
 Because if we have a non-decreasing list, we can easily calculate the maximum area in one scan. We just need to compare: `height[i] * (n - i)` for every `i`. 
 
-> **So how do we maintain this stack?**
+> _So how do we maintain this stack?_
 
 If we keep seeing larger element, we just need to push them onto the stack. If we see a smaller (compared to the top element on the stack) element, we need to do two things:
 
