@@ -18,7 +18,7 @@ Usage:
 -->{% endcomment %}
 
 {% if site.JB.posts_collate.provider == "custom" %}
-  {% include custom/posts_collate %}
+  {% include JB/custom/posts_collate %}
 {% else %}
   {% for post in posts_collate  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}

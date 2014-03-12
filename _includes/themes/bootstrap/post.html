@@ -11,6 +11,7 @@
   <table>
         <tr><td>
          <span class="glyphicon glyphicon-time"></span><span> {{ page.date | date_to_string }}</span><span style="display:inline-block; width: 20px;"></span></td>
+         <td><span class="glyphicon glyphicon-user"></span>{% if page.author%} {{&nbsp;page.author }} {% else %}&nbsp;aakash01{% endif %}<span style="display:inline-block; width: 20px;"></span></td>
   {% unless page.tags == empty %}
       <td><span class="glyphicon glyphicon-tags">&nbsp;</span></td>
         {% assign tags_list = page.tags %}

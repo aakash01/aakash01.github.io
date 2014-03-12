@@ -2,7 +2,7 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
-published: false
+published: true
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}

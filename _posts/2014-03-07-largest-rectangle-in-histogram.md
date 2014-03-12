@@ -5,6 +5,7 @@ description: " Largest Rectangle in Histogram"
 category: Programming
 tags: [Programming, leetcode]
 published: true
+author: aakash01
 ---
 
 {% include JB/setup %}
