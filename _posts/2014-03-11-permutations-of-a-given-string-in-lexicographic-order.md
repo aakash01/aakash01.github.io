@@ -4,6 +4,7 @@ title: "permutations of a given string in lexicographic order"
 description: "permutations of a given string in sorted lexicographic order"
 category: Programming
 tags: [Programming, Strings]
+author: hinaj
 ---
 {% include JB/setup %}
 
@@ -17,17 +18,25 @@ For example, Given the Input String `ABC`, the output should be `ABC`, `ACB`, `B
 
 We are gonna use the below catch for generating all the permutations of a given string.
 
->__ All permutations of a string X is the same thing as all permutations of each possible character in X, combined with all permutations of the string X without that letter in it.__
+> __All permutations of a string X is the same thing as all permutations of each possible character in X, combined with all permutations of the string X without that letter in it.__
 
 
 ![permutations]({{http://aakash01.github.io}}/assets/images/Permutation.png)
 
-So all permutations of "abcd" are
+So all permutations of `abcd` are
 
- "a" concatenated with all permutations of "bcd"...
- "b" concatenated with all permutations of "acd"...
- "c" concatenated with all permutations of "bad"...
- "d" concatenated with all permutations of "bca"...
+ `a` concatenated with all permutations of `bcd`
+
+ `b` concatenated with all permutations of `acd`
+
+ `c` concatenated with all permutations of `bad`
+
+ `d` concatenated with all permutations of `bca`
+
+
+
+ -------------
+
 
 
 ####Code (C++)
