@@ -24,10 +24,10 @@ We are gonna use the below catch for generating all the permutations of a given 
 
 So all permutations of "abcd" are
 
-- "a" concatenated with all permutations of "bcd"
-- "b" concatenated with all permutations of "acd"
-- "c" concatenated with all permutations of "bad"
-- "d" concatenated with all permutations of "bca"
+ "a" concatenated with all permutations of "bcd"...
+ "b" concatenated with all permutations of "acd"...
+ "c" concatenated with all permutations of "bad"...
+ "d" concatenated with all permutations of "bca"...
 
 
 ####Code (C++)
