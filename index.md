@@ -7,7 +7,6 @@ tagline: Code...Code...Code...
 
 ## Programming Questions
 
-<meta name="google-site-verification" content="s5bx39AFf4CibElgCsbVyhODZ46VYR7GWv1IHX21Kg4" />
 <ul class="posts">
 <table class="table table-striped">  
         <thead>  

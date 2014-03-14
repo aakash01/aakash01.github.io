@@ -111,7 +111,7 @@ JB :
         tracking_id : 'UA-***'
     googleUA :
         tracking_id : 'UA-48895019-1'
-        property_name : 'aakash01.github.io'
+        property_name : aakash01.github.io
     getclicky :
       site_id : 
     mixpanel :
