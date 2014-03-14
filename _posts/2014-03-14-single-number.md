@@ -28,8 +28,8 @@ One method would be to use a hash table `hashtable[n]` and check in hashTable if
 
 The catch here is to use `XOR` bitwise operator.
 `XOR` have some special properties : 
-[ ] A `XOR` A = 0
-[ ] A `XOR` 0 = A
++ A `XOR` A = 0
++ A `XOR` 0 = A
 
 As we can see,  we will iterate through entire array `XORing` each number with one another, all duplicate number will be 0 and we will get the only single number
 
