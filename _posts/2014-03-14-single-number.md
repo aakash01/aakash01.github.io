@@ -14,7 +14,7 @@ Ex:
  output : `4`
 
 
- __Hint__
+ Hint
 
  A simple brute force algorithm is 
  <div class="panel panel-default">
@@ -36,3 +36,14 @@ As we can see,  we will iterate through entire array `XORing` each number with o
 #### Code (Java)
 
  
+{% highlight cpp linenos %}
+public class Solution {
+    public int singleNumber(int[] A) {
+        int j=0;
+        for(int i=0;i<A.length;i++){
+            j ^= A[i];
+        }
+       return j;
+    }
+}
+{% endhighlight %}
