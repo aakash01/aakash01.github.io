@@ -19,6 +19,8 @@ Ex:
 
  A simple brute force algorithm is 
  
+    For each integer i in arr check if it is present. If present continue otherwise return it.
+
 The Complexity of above algorithm will be O(n<sup>2</sup>). Can we reduce it to O(n)?
 
 One method would be to use a hash table `hashtable[n]` and check in hashTable if the number is already occured in array. But is this method efficient? Probably not for large n. So how can we implement it without using extra memory?
