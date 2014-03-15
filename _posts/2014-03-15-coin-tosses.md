@@ -27,14 +27,10 @@ author: aakash01
 	8.00
 *Sample Explanation:*
 
-If N = `2` and M = `0`, you need to keep tossing the coin until you get 2 consecutive heads. 
+If N = `2` and M = `0`, you need to keep tossing the coin until you get 2 consecutive heads. It is not hard to show that on average, 6 coin tosses are needed.
 
-It is not hard to show that on average, 6 coin tosses are needed.
-If N = `2` and M = `1`, you need 2 consecutive heads and have already have 1. You need to toss once more no matter what. 
-
-In that first toss, if you get heads, you are done. Otherwise, you need to start over, as the consecutive counter resets, and you need to keep tossing the coin until you get N=2 consecutive heads. 
-
-The expected >umber of coin tosses is thus `1 + (0.5 * 0 + 0.5 * 6) = 4.0`
+If N = `2` and M = `1`, you need 2 consecutive heads and have already have 1. You need to toss once more no matter what. In that first toss, if you get heads, you are done. Otherwise, you need to start over, as the consecutive counter resets, and you need to keep tossing the coin until you get N=2 consecutive heads. <br/>
+The expected Number of coin tosses is thus `1 + (0.5 * 0 + 0.5 * 6) = 4.0`
 
 If N = `3` and M = `3`, you already have got 3 heads, so you do not need any more tosses.
 
