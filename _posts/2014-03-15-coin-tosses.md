@@ -42,7 +42,9 @@ If N = `3` and M = `3`, you already have got 3 heads, so you do not need any mor
 
 ### Hint
 
-This problem is a Mathematical Expectation problem
+This problem is a [Mathematical Expectation](http://www.codechef.com/wiki/tutorial-expectation) problem
+
+
 
 Mathematically, for a discrete variable X with probability function P(X), the expected value E[X] is given by &Sigma; x<sub>i</sub>P(x<sub>i</sub>) the summation runs over all the distinct values x<sub>i</sub> that the variable can take.
 
