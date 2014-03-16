@@ -119,6 +119,11 @@ y = `2N+1 - 2M+1`
 
 	Generalizing on the number of events. If there are K events, where one event is desirable and all others are undesirable, and the probability of desirable 	event is p, then also the expected number of trials done to get the desirable event is 1/p.
 
+	Expected number of bernaulli trials to ensure that there are atleast N successes, if the probability of each success is p
+		E[N] = p(E[N-1]+1)+(1-p)(E[N]+1)
+		Solving we get ,
+			E[N] = n/p
+
 
 #### Code (Java)
 
