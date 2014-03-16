@@ -68,15 +68,18 @@ For a Stock[i],
 
 {% highlight java linenos %}
 
-void calcSpan(int bar[]){
-for(int i=0; i<bar.length;i++){
-	int j=i-1,span=1;
-	while(j>=0 && bar[j]<bar[i]){
-		span+=s[j];
-		j=j-s[j];
+int calcSpan(int bar[])[]{
+	int[] s = new int[bar.length];
+	int span;
+	for(int i=0; i<bar.length;i++){
+		int j=i-1,span=1;
+		while(j>=0 && bar[j]<bar[i]){
+			span+=s[j];
+			j=j-s[j];
+		}
+		s[i]=span;
 	}
-	s[i]=span;
-}
+	return s;
 }
 
 {% endhighlight %}
