@@ -3,7 +3,7 @@ layout: post
 title: Largest Rectangle in Histogram
 description: " Largest Rectangle in Histogram"
 category: Programming
-tags: [Programming, leetcode]
+tags: [Programming, leetcode, Stacks]
 published: true
 author: aakash01
 ---
