@@ -87,7 +87,7 @@ In order to obtain n consecutive heads, we must first obtain n-1 consecutive hea
 
 * with probability &#189;, a tail, after which we must obtain n consecutive heads.
 
-It follows that En = &#189;`(En-1 + 1) + `&#189;`(En-1 + 1 + En)`, from which En = `2En-1 + 2`. which also give En = `2N+1-2`  .
+It follows that En = &#189;`(En-1 + 1) + `&#189;`(En-1 + 1 + En)`, from which En = `2En-1 + 2`. which also give En = `2`<sup>`N+1`</sup>`-2`  .
 
 
 Now as per given problem we already have M number of heads therefore let rest number of coin flips required be x.
@@ -103,11 +103,13 @@ which gives
 
 y =  `(1/2)(x+1) + (1/4)(x+2) + ... + (1/(2`<sup>`k`</sup>`))(x+k)  + (1/(2`<sup>`N-k`</sup>`))(k)`
 
-and x = `2N+1-2`.
+and x = `2`<sup>`N+1`</sup>`-2`.
 
 solving this gives , 
 
-y = `2N+1 - 2M+1`
+y = `2`<sup>`N+1`</sup>` - 2`<sup>`M+1`</sup>
+
+----
 
 ####Important Note : 
 	In the problems where there are two events, where one event is desirable and other is undesirable, and the probability of desirable event is p, then the expected number of trials done to get the desirable event is 1/p
@@ -116,8 +118,10 @@ y = `2N+1 - 2M+1`
 		b. If we don't get the event, the probability of this is (1-p) and we have to start all over again and we wasted one chance so
 			x = p + (1-p)*(x+1)
 			solving we get x  = 1/p
+	------
 
 	Generalizing on the number of events. If there are K events, where one event is desirable and all others are undesirable, and the probability of desirable 	event is p, then also the expected number of trials done to get the desirable event is 1/p.
+	--------
 
 	Expected number of bernaulli trials to ensure that there are atleast N successes, if the probability of each success is p
 		E[N] = p(E[N-1]+1)+(1-p)(E[N]+1)
