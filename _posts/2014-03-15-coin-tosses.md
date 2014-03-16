@@ -117,7 +117,6 @@ y = `2N+1 - 2M+1`
 			b. If we don't get the event, the probability of this is (1-p) and we have to start all over again and we wasted one chance so
 				x = p +(1-p)*(x+1)
 				solving we get x = 1/p 
-	* Generalizing on the number of events. If there are K events, where one event is desirable and all others are undesirable, and the probability of desirable 	event is p, then also the expected number of trials done to get the desirable event is 1/p.
 	
 
 
