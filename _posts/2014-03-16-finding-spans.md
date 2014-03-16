@@ -52,9 +52,9 @@ So Simple Algo would be .
 
 For a Stock[i], 
 
-	1. check previous stock value, If it is smaller , add the span[i-1] to curr_span and move backwards to j = j-span[j] and repeat the process for stock[j] untill  we found a stock with greater value
-	
-	2. Else if value of bar[j] > bar[i] stop and update the value.
+	a. check previous stock value, If it is smaller , add the span[i-1] to curr_span and move backwards to j = j-span[j] and repeat the process for stock[j] untill  we found a stock with greater value
+
+	b. Else if value of bar[j] > bar[i] stop and update the value.
 
 
 `Time Complexity` : `O(n)`   Space Complexity : `O(1)`
