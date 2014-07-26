@@ -76,8 +76,6 @@ JB :
   
   markdown : kramdown
 
-  url :         http://localhost:4001
-
   kramdown :
     input : GFM
 
