@@ -16,19 +16,19 @@ In this post I'll show you how to debug devstack (neutron) with pycharm.
 
 3. Add a new remote host : Tools -> Deployment -> Configuration 
 	
-	![remote_host_1]({{http://aakash01.github.io}}/assets/images/remote_host_1.png)
-	-----------------------
-	<br/>
-	![remote_host_2]({{http://aakash01.github.io}}/assets/images/remote_host_2.png)
+![remote_host_1]({{http://aakash01.github.io}}/assets/images/remote_host_1.png)
+-----------------------
+<br/>
+![remote_host_2]({{http://aakash01.github.io}}/assets/images/remote_host_2.png)
 
-	NOTE : add /data and /logs to  excluded paths
+NOTE : add /data and /logs to  excluded paths
 
 4. Sync remote with local and download all files from remote VM to your local . In Remote host panel -> download from here. 
 
 5. Configure remote interpreter : Settings (`Ctrl+Alt+S`) -> Project Interpreter -> add remote 
   
 
-	![remote_interpreter]({{http://aakash01.github.io}}/assets/images/remote_interpreter.png)
+![remote_interpreter]({{http://aakash01.github.io}}/assets/images/remote_interpreter.png)
 
 6. Enable `Gevent compatible debugging` : Settings (`Ctrl+Alt+S`) -> Python debugger -> check Gevent compatible debugging
 
@@ -42,7 +42,7 @@ In this post I'll show you how to debug devstack (neutron) with pycharm.
 	- Script Parameters : --config-file /etc/neutron/neutron.conf --config-file /etc/neutron/plugins/ml2/ml2_conf.ini
 	- Python interpreter: remote interpreter created in above step. 
 
-	![debug_config]({{http://aakash01.github.io}}/assets/images/debug_config.png)
+![debug_config]({{http://aakash01.github.io}}/assets/images/debug_config.png)
 
 -------------------------------------------------------
 We can debug using remote debugger as well . I'll check it out and update the post
