@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dive into JAVA Part 2"
+title: "Dive into Java   Part 2"
 description: ""
 category: 
 tags: []
