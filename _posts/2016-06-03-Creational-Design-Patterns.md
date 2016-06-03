@@ -86,8 +86,8 @@ Factory Method lets class defer instantiation to subclasses.
 ![Diagram]({{http://aakash01.github.io}}/assets/images/factorymethod_pattern.jpg){:height="400px" width="900px"}
 
 > A factory method handles object creation and encapsulates it in a subclass. This decouples the client code in the superclass from the object creation code in subclass.
-> 
-> > ![abstract Product factoryMethod(String type)]({{http://aakash01.github.io}}/assets/images/factory_method.png)
+
+![abstract Product factoryMethod(String type)]({{http://aakash01.github.io}}/assets/images/factory_method.png)
 
 ----------------------------
 
@@ -101,7 +101,8 @@ that way we are decoupling the implementation of the product from its use, there
     
 ####   Example
 
-![Example]({{http://aakash01.github.io}}/assets/images/factorymethod_pattern_example.jpg){:height="400px" width="900px"}
+![Example]({{http://aakash01.github.io}}/assets/images/factorymethod_pattern_example.jpg)
+
 
 ``` java
 public abstract class PizzaStore {
