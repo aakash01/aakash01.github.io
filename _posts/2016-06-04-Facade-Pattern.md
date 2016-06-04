@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Facade Pattern"
-description: "Facade Pattern -- Class,Object Structural"
+description: "Facade Pattern -- Object Structural"
 category: Programming
 tags: [Java, Structural Patterns]
 published: true
