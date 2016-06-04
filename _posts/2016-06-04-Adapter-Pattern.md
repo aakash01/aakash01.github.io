@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Adapter Pattern"
-description: "Adapter Patterns -- Class,Object Structural"
+description: "Adapter Pattern -- Class,Object Structural"
 category: Programming
 tags: [Java, Structural Patterns]
 published: true
