@@ -2,7 +2,7 @@
 layout: post
 title: "Simple Factory"
 description: "Simple Factory"
-category: Programming
+category: Design Patterns
 tags: [Java, Creational Design Pattern]
 published: true
 author: aakash01

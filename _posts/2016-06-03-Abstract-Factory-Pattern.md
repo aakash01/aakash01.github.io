@@ -2,7 +2,7 @@
 layout: post
 title: "Abstract factory Pattern"
 description: "Abstract factory Pattern"
-category: Programming
+category: Design Patterns
 tags: [Java, Creational Design Pattern]
 published: true
 author: aakash01

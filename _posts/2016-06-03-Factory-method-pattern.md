@@ -2,7 +2,7 @@
 layout: post
 title: "Factory Method Pattern"
 description: "Factory Method Pattern"
-category: Programming
+category: Design Patterns
 tags: [Java, Creational Design Pattern]
 published: true
 author: aakash01

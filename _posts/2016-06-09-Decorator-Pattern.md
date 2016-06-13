@@ -2,7 +2,7 @@
 layout: post
 title: "Decorator Pattern"
 description: "Decorator Pattern -- Object Structural"
-category: Programming
+category: Design Patterns
 tags: [Java, Structural Patterns]
 published: true
 author: aakash01

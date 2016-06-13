@@ -2,7 +2,7 @@
 layout: post
 title: "Facade Pattern"
 description: "Facade Pattern -- Object Structural"
-category: Programming
+category: Design Patterns
 tags: [Java, Structural Patterns]
 published: true
 author: aakash01
