@@ -60,6 +60,14 @@ To Write Immutable Object
  	
 	 So All the getters must provide immutable objects or use defensive(deep) copying. 
 
+
+**Template for creating immutable objects.**
+
+    Make all fields private
+    Don't provide mutators
+    Ensure that methods can't be overridden by either making the class final (Strong Immutability) or making your methods final (Weak Immutability)
+    If a field isn't primitive or immutable, make a deep clone on the way in and the way out. 
+
 [Preferred Reading ](http://www.javaranch.com/journal/2003/04/immutable.htm)
 
 
