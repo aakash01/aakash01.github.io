@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dive into Java   Part 2"
 description: ""
-category: 
-tags: []
 ---
 {% include JB/setup %}
+
+<h3> Program to an interface not implementation </h3>
+
 
 > What is an Abstract Class? 
 
@@ -109,4 +109,30 @@ stopPlayer
 {% endhighlight %}
 
 
+> What is an Interface?
 
+Interface is a Java keyword and an object oriented term to define contract and abstraction. 
+
+<ul>
+<li> All variables declared inside interface are **public final** or constants. </li>
+<li> All methods declared inside interface are **public abstract**. </li>
+<li> In Java it is valid for an interface to extended multiple interfaces. </li>
+<li> Interfaces generally define capability. </li>
+
+** A Marker Interface is an interface with no fields or methods. It is used as a marker or tag. Eg: Serializable.
+With the introduction of annotations they are obsolete. **
+
+
+
+
+> When to prefer Abstract Class over Interface. 
+
+1. In Java you can only extend one class, but multiple interface.  Interface can provide more [polymorphism]({% post_url 2014-03-20-dive-into-java---part-1 %}) support than abstract class. 
+
+2. Interfaces are used to represent behaviour eg: Runnable, Cloneable etc., So if we want to have a CAN-DO-THIS relationship use interface, otherwise if we want IS-A relationship use Abstract class. 
+
+3. If we want to provide any default behaviour , use abstract class. Interface cannot contain any concrete methods. 
+
+4. Interfaces are best choice for Type declaration or defining contract between multiple parties. 
+
+5. Interface provides more decoupling than abstract classes because they don't contain any implementation details. 
