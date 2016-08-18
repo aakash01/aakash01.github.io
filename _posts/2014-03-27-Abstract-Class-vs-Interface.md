@@ -117,11 +117,27 @@ stopPlayer
 Interface is a Java keyword and an object oriented term to define contract and abstraction. 
 
 <ul>
-<li> All variables declared inside interface are **public final** or constants. </li>
-<li> All methods declared inside interface are **public abstract**. </li>
+<li> All variables declared inside interface are <b>public final</b> or constants. </li>
+<li> All methods declared inside interface are <b>public abstract</b>. </li>
 <li> In Java it is valid for an interface to extended multiple interfaces. </li>
 <li> Interfaces generally define capability. </li>
 </ul>
+
+EG: 
+
+{% highlight java %}
+interface Flyable {
+    void fly();
+}
+
+class Aeroplane implements Flyable {
+    @Override
+    public void fly(){
+    	System.out.println("Fly High.");
+    }
+}
+
+{% endhighlight %}
 
 
 **A Marker Interface is an interface with no fields or methods. It is used as a marker or tag. Eg: Serializable.
