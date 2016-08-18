@@ -121,14 +121,17 @@ Interface is a Java keyword and an object oriented term to define contract and a
 <li> All methods declared inside interface are **public abstract**. </li>
 <li> In Java it is valid for an interface to extended multiple interfaces. </li>
 <li> Interfaces generally define capability. </li>
+</ul>
 
-** A Marker Interface is an interface with no fields or methods. It is used as a marker or tag. Eg: Serializable.
-With the introduction of annotations they are obsolete. **
+
+**A Marker Interface is an interface with no fields or methods. It is used as a marker or tag. Eg: Serializable.
+With the introduction of annotations they are obsolete.**
 
 
 
 
 > When to prefer Abstract Class over Interface. 
+
 
 1. In Java you can only extend one class, but multiple interface.  Interface can provide more [polymorphism]({% post_url 2014-03-20-dive-into-java---part-1 %}) support than abstract class. 
 
@@ -139,3 +142,5 @@ With the introduction of annotations they are obsolete. **
 4. Interfaces are best choice for Type declaration or defining contract between multiple parties. 
 
 5. Interface provides more decoupling than abstract classes because they don't contain any implementation details. 
+
+
