@@ -1,6 +1,9 @@
 ---
 layout: post
+title: "Abstract Class vs Interface"
 description: ""
+category: java
+tags: [java]
 ---
 {% include JB/setup %}
 
