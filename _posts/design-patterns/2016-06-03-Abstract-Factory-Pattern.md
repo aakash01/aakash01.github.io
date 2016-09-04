@@ -16,7 +16,7 @@ author: aakash01
 **Abstract Factory relies on Object Composition**: object creation is implemented in methods exposed in the factory interface.
 
 
-![class diagram]({{http://aakash01.github.io}}/assets/images/abstract_factory.jpg)
+![class diagram]({{http://aakash01.github.io}}/assets/images/design_patterns/abstract_factory.PNG)
 
 It provide an abstract type for creating a family of products. Subclasses of this type define how the product produced. To use the factory, instantiate one instance and pass it 
 into some code that is written against the abstract type. Like Factory Method , the client is decoupled from the actual concrete product. 
@@ -34,7 +34,7 @@ into some code that is written against the abstract type. Like Factory Method , 
 #### Example 
 
 
-![Example]({{http://aakash01.github.io}}/assets/images/abstract_factory_example.jpg)
+![Example]({{http://aakash01.github.io}}/assets/images/design_patterns/abstract_factory_example.PNG)
 
 ``` java
 public interface PizzaIngredientFactory {

@@ -15,7 +15,7 @@ author: aakash01
 > * Creates an object without exposing the instantiation logic to the client.
 > * Refers the newly created object using a common interface.
 
-![simple factory]({{http://aakash01.github.io}}/assets/images/simplefactory.png)
+![simple factory]({{http://aakash01.github.io}}/assets/images/design_patterns/simplefactory.png)
 
 The Simple Factory isn't actually a design pattern; It's more of a programming idiom.
 
@@ -26,7 +26,7 @@ create method;
 **Example**
 
 
-![simple factory example]({{http://aakash01.github.io}}/assets/images/simplefactory_example.jpg ){:height="480px" width="950px"}
+![simple factory example]({{http://aakash01.github.io}}/assets/images/design_patterns/simplefactory_example.PNG )
 
 -   -   -
 

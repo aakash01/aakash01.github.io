@@ -14,7 +14,7 @@ author: aakash01
 >   **The Adapter Pattern** converts the interface of a class to another interface the client expects. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 >   Also known as **Wrapper**.
 
-![adapter pattern]({{http://aakash01.github.io}}/assets/images/adapter_pattern.jpg )
+![adapter pattern]({{http://aakash01.github.io}}/assets/images/design_patterns/adapter_pattern.PNG )
 
 1   The client makes a request to the adapter by calling a method on it using the target interface.
 
@@ -32,7 +32,7 @@ There are two forms of adapter pattern
 ### Object Adapter
 **Object Adapter relies on object composition**
 
-![Class Diagram]({{http://aakash01.github.io}}/assets/images/object_adapter.jpg )
+![Class Diagram]({{http://aakash01.github.io}}/assets/images/design_patterns/object_adapter.PNG )
 
 It lets a single Adapter work with many Adaptees, the Adaptee itself and all of its subclasses. But it is harder to override Adaptee behaviour because 
 it will require subclassing Adaptee and making Adapter refer to the subclass instead of Adaptee itself.
@@ -42,7 +42,7 @@ it will require subclassing Adaptee and making Adapter refer to the subclass ins
 
 **A Class Adapter uses multiple inheritance to adapt one interface to another**.
 
-![Class Diagram]({{http://aakash01.github.io}}/assets/images/class_adapter.jpg )
+![Class Diagram]({{http://aakash01.github.io}}/assets/images/design_patterns/class_adapter.PNG )
 
 It adapts Adaptee to Target by committing to a concrete Adapter class. As a consequence, a class adapter won't work when we want to adapt a class and all its subclasses.
 But it lets Adapter override some of Adaptee's functionality as it is a subclass of Adaptee.

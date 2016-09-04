@@ -15,7 +15,7 @@ Decorator provide a flexible alternative to subclassing for extending functional
 ```
 Also known as **Wrapper**. It involves a set of decorator classes that are used to wrap concrete components. 
 
-![Decorator Pattern -- Class Diagram]({{http://aakash01.github.io}}/assets/images/decorator_pattern.jpg )
+![Decorator Pattern -- Class Diagram]({{http://aakash01.github.io}}/assets/images/design_patterns/decorator_pattern.PNG )
 
 ### Key Points
 *   Decorators have the same supertype as the objects they decorate. 

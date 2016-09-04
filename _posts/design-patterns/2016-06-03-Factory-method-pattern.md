@@ -16,11 +16,11 @@ Factory Method lets class defer instantiation to subclasses.
 
 **Factory Method relies on Inheritence:** object creation is delegated to subclasses which implement the factory method to create objects. 
 
-![Diagram]({{http://aakash01.github.io}}/assets/images/factorymethod_pattern.jpg){:height="400px" width="900px"}
+![Diagram]({{http://aakash01.github.io}}/assets/images/design_patterns/factorymethod_pattern.PNG)
 
 > A factory method handles object creation and encapsulates it in a subclass. This decouples the client code in the superclass from the object creation code in subclass.
 
-![abstract Product factoryMethod(String type)]({{http://aakash01.github.io}}/assets/images/factory_method.png)
+![abstract Product factoryMethod(String type)]({{http://aakash01.github.io}}/assets/images/design_patterns/factory_method.png)
 
 ----------------------------
 
@@ -34,7 +34,7 @@ that way we are decoupling the implementation of the product from its use, there
     
 ####   Example
 
-![Example]({{http://aakash01.github.io}}/assets/images/factorymethod_pattern_example.jpg)
+![Example]({{http://aakash01.github.io}}/assets/images/design_patterns/factorymethod_pattern_example.PNG)
 
 
 ``` java

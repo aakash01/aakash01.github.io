@@ -15,7 +15,7 @@ Facade defines a higher level interface that makes the subsystem easier to use.
 ```
 
 
-![Facade Pattern]({{http://aakash01.github.io}}/assets/images/facade_pattern.png )
+![Facade Pattern]({{http://aakash01.github.io}}/assets/images/design_patterns/facade_pattern.png )
 
 1. Use Facade to simplify and unify a large interface or complex set of interfaces. 
 2. It decouples a client from a complex subsystem. 
