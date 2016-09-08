@@ -9,7 +9,7 @@ tags: []
 
 > OOPs Concepts in Java
 
-###Polymorphism
+### Polymorphism
 
 	It is the ability of one method to have different behaviour depending on the the type of object it is being called upon OR the type of object passed as argument.
 
@@ -22,9 +22,11 @@ tags: []
  *	It uses Type(class) to resolve binding.
 
 Eg: 
- {% highlight java linenos %}
- public static double Math.max(double a, double b){..}
- public static float Math.max(float a, float b){..}{% endhighlight %}
+
+``` java
+public static double Math.max(double a, double b){..}
+public static float Math.max(float a, float b){..}
+```
 
 **Method Overriding** is when we redefine a method from base class to its child class . The Overridden method have same declaration but different definition. 
 
@@ -33,29 +35,29 @@ Eg:
 *	Virtual methods are bonded by dynamic binding (**Virtual Methods** : All the non static methods are Virtual Methods. Only methods marked with the keyword final, which cannot be overridden, along with private methods, which are not inherited, are non-virtual).
 
 Eg:
-{% highlight java linenos %}
+
+``` java
 public class Animal {
     public void makeNoise()
     {
         System.out.println("Some sound");
     }
-}
- 
+} 
 class Dog extends Animal{
     public void makeNoise()
     {
         System.out.println("Bark");
     }
-}
- 
+} 
 class Cat extends Animal{
     public void makeNoise()
     {
         System.out.println("Meawoo");
     }
 }
-{% endhighlight %}
-{% highlight java linenos %}
+```
+
+``` java
 public class Demo
 {
     public static void main(String[] args) {
@@ -66,7 +68,7 @@ public class Demo
         a2.makeNoise(); //Prints Bark
     }
 }
-{% endhighlight %}
+```
 
 
 
